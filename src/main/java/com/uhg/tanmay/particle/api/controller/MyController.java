@@ -39,12 +39,8 @@ public class MyController {
     String newLine = System.getProperty("line.separator");
     @RequestMapping(method = RequestMethod.GET, value = " ")
     public String redirectsToHome(){
-        return "Welcome to the particle stock exchange" + newLine + "We will help you out here" +
-                newLine + "" + newLine + "1. You can access swagger ui by adding /ui to the local host" +
-                newLine + "2. To access documentation use /doc" +
-                newLine + "3. To access info on current available particles use /particle" +
-                newLine + "2. To access complete particle details use /particle/details" +
-                newLine + "2. To access documentation use /doc";
+        return "Welcome to the particle sale inventory microservice" ;
+
     }
 
 
